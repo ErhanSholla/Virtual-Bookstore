@@ -2,9 +2,9 @@ server:
   port: 9191
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/virtual-bookstore
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://localhost:5432/
+    username: username 
+    password: password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -12,8 +12,8 @@ spring:
     show-sql: true
   mail:
     host: smtp.gmail.com
-    username: eskenderbe@gmail.com
-    password: zsrpvpqvcnlapzob
+    username: username  
+    password: password
     properties:
       mail:
         smtp:
