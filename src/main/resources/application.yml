@@ -1,0 +1,27 @@
+server:
+  port: 9191
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/virtual-bookstore
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    username: eskenderbe@gmail.com
+    password: zsrpvpqvcnlapzob
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    port: 587
+
+jwt:
+  signature: Erhan
+  issuer: Sholla
